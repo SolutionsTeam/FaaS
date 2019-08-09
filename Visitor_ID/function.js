@@ -4,7 +4,7 @@ function lambda(input, callback) {
   // Obtain an HTTPClient Instance from the Toolbelt
   const httpClient = Toolbelt.HTTPClient(); // For API Docs look @ https://www.npmjs.com/package/request-promise
 
-  const URL = "https://va.v.liveperson.net/api/account/71560161/app/0020e28d-ee0d-496f-9b2f-1f3c882fe0bb/report?v=1.1";
+  const URL = "https://va.v.liveperson.net/api/account/(EnterYourAccountId)/app/(EnterYourAppInstallationId/report?v=1.1";
 
   httpClient(URL, {
     method: "PUT", // HTTP VERB
